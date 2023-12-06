@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-            Some of the projects are from work and some are on my own time.
+            팀 작업 외에는 전부 개인 프로젝트입니다.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
@@ -58,7 +58,7 @@ export default async function ProjectsPage() {
                 <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
                     {featured.date ? (
-                      <time dateTime={new Date(featured.date).toISOString()}>
+                      <time dateTime={new Date(featured.date)}>
                         {Intl.DateTimeFormat(undefined, {
                           dateStyle: "medium",
                         }).format(new Date(featured.date))}
