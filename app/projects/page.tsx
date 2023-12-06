@@ -58,7 +58,7 @@ export default async function ProjectsPage() {
                 <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
                     {featured.date ? (
-                      <time dateTime={new Date(featured.date)}>
+                      <time dateTime={new Date(featured.date).toISOString()}>
                         {Intl.DateTimeFormat(undefined, {
                           dateStyle: "medium",
                         }).format(new Date(featured.date))}
