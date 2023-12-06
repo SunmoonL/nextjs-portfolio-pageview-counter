@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "SunmoonLee's Portfolio",
+    template: "%s | SunmoonLee's Portfolio",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "SunmoonLee's Portfolio",
   openGraph: {
-    title: "chronark.com",
+    title: "SunmoonLee's Portfolio",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "SunmoonLee's Portfolio",
+    url: "https://nextjs-portfolio-pageview-counter-sunmoonls-projects.vercel.app/",
+    siteName: "SunmoonLee's Portfolio",
     images: [
       {
         url: "https://chronark.com/og.png",
